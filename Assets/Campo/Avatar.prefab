@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5326040664244323916}
   - component: {fileID: 8631478755066058469}
   - component: {fileID: 4380361529256470953}
-  - component: {fileID: 8469146935068391470}
   - component: {fileID: 8839888381782977144}
   m_Layer: 3
   m_Name: Avatar
@@ -128,7 +127,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.03509216}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.4354919, y: 0.390337}
+    pivot: {x: 0.5112203, y: 0.3429474}
     oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -164,24 +163,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8469146935068391470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4014249328268423186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6b4d33bd7f00c44e9208082fce01124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 6.5
-  rayLength: 0.9
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 4032
 --- !u!95 &8839888381782977144
 Animator:
   serializedVersion: 7

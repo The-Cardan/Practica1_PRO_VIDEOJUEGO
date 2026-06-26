@@ -1,24 +1,35 @@
-using System.Diagnostics;
-using System.Threading;
 using UnityEngine;
+using TMPro;
+using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
-    public float jumpForce = 6.5f; // Fuerza del salto
-    public float rayLength = 0.9f; // Longitud del rayo para detectar el suelo
-    public LayerMask groundLayer; // Capa del suelo para detección
+    public float jumpForce = 6.5f;
+    public float rayLength = 0.7f;
+    public LayerMask groundLayer;
 
     private Rigidbody2D rb;
-    private bool isGrounded;
+    public bool isGrounded;
+    private Animator animator;
+    private bool facingRight = true;
 
-    // Propiedades personalizadas para el movimiento
-    private float localScaleX = 10.64716f;
-    private float localScaleY = 8.479184f;
+    public TextMeshProUGUI objectCounterText;
+
+    private Dictionary<string, int> collectedObjects = new Dictionary<string, int>()
+    {
+        { "Cake", 0 },
+        { "Chicken", 0 },
+        { "Coffee", 0 },
+        { "Jam", 0 },
+        { "Cookie", 0 }
+    };
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        UpdateObjectCounterUI();
     }
 
     void Update()
@@ -26,22 +37,34 @@ public class PlayerController : MonoBehaviour
         float moveInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
 
-        if (moveInput > 0)
-            transform.localScale = new Vector3(localScaleX, localScaleY, 1);
-
-        else if (moveInput < 0)
-            transform.localScale = new Vector3(-localScaleX, localScaleY, 1);
-
-        transform.localRotation = Quaternion.identity;
-
         isGrounded = IsGrounded();
 
+        animator.SetBool("IsJumping", !isGrounded);
+        animator.SetFloat("VerticalVelocity", rb.linearVelocity.y);
+        animator.SetFloat("Speed", Mathf.Abs(moveInput));
+
         if (isGrounded && Input.GetButtonDown("Jump"))
-        {
             Jump();
+
+        if (moveInput > 0 && !facingRight)
+        {
+            Flip();
         }
+        else if (moveInput < 0 && facingRight)
+        {
+            Flip();
+        }
+        transform.localRotation = Quaternion.identity;
+
     }
 
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
     void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
@@ -49,28 +72,40 @@ public class PlayerController : MonoBehaviour
 
     bool IsGrounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(
-            transform.position,
-            Vector2.down,
-            rayLength,
-            groundLayer
-        );
-
-        UnityEngine.Debug.DrawRay(
-            transform.position,
-            Vector2.down * rayLength,
-            Color.red
-        );
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, rayLength, groundLayer);
+        UnityEngine.Debug.DrawRay(transform.position, Vector2.down * rayLength, Color.red);
 
         return hit.collider != null;
     }
 
-    void OnDrawGizmos()
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        Gizmos.color = Color.green;
-        Gizmos.DrawLine(
-            transform.position,
-            transform.position + Vector3.down * rayLength
-        );
+        if (collision.CompareTag("Collectible"))
+        {
+            string objectName = collision.gameObject.name;
+
+            if (collectedObjects.ContainsKey(objectName))
+            {
+                collectedObjects[objectName]++;
+                UpdateObjectCounterUI();
+            }
+            Destroy(collision.gameObject);
+        }
     }
+
+    void UpdateObjectCounterUI()
+    {
+        objectCounterText.text = $"Cake: {collectedObjects["Cake"]} | " +
+                                 $"Chicken: {collectedObjects["Chicken"]} | " +
+                                 $"Coffee: {collectedObjects["Coffee"]} | " +
+                                 $"Jam: {collectedObjects["Jam"]} | " +
+                                 $"Cookie: {collectedObjects["Cookie"]}";
+    }
+
+    void OnDrawGizmos()
+    { 
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * rayLength);
+    }
+
 }

@@ -192,7 +192,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,7 +214,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,7 +236,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,7 +258,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,7 +280,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,7 +302,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,7 +324,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,7 +346,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,7 +368,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,7 +390,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,7 +412,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,7 +434,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,7 +456,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,7 +478,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -500,7 +500,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -522,7 +522,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -544,7 +544,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: FinnSprite_17
       rect:
         serializedVersion: 2
-        x: 531
-        y: 22
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,12 +583,12 @@ TextureImporter:
       name: FinnSprite_18
       rect:
         serializedVersion: 2
-        x: 544
+        x: 576
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +605,12 @@ TextureImporter:
       name: FinnSprite_19
       rect:
         serializedVersion: 2
-        x: 576
+        x: 608
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +627,12 @@ TextureImporter:
       name: FinnSprite_20
       rect:
         serializedVersion: 2
-        x: 608
+        x: 640
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: FinnSprite_21
       rect:
         serializedVersion: 2
-        x: 736
+        x: 672
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: FinnSprite_22
       rect:
         serializedVersion: 2
-        x: 768
+        x: 704
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: FinnSprite_23
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: FinnSprite_24
       rect:
         serializedVersion: 2
-        x: 832
+        x: 768
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -737,12 +737,12 @@ TextureImporter:
       name: FinnSprite_25
       rect:
         serializedVersion: 2
-        x: 864
+        x: 800
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,12 +759,12 @@ TextureImporter:
       name: FinnSprite_26
       rect:
         serializedVersion: 2
-        x: 640
+        x: 832
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,12 +781,12 @@ TextureImporter:
       name: FinnSprite_27
       rect:
         serializedVersion: 2
-        x: 672
+        x: 864
         y: 0
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
+      pivot: {x: 0.5112203, y: 0.3429474}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -795,28 +795,6 @@ TextureImporter:
       bones: []
       spriteID: 29f4a6545d4cd0500800000000000000
       internalID: 364163565158551442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FinnSprite_28
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0.4354919, y: 0.390337}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e8aae408a157fe80800000000000000
-      internalID: -8144951618997409560
       vertices: []
       indices: 
       edges: []
@@ -856,7 +834,6 @@ TextureImporter:
       FinnSprite_25: 8629116929241908266
       FinnSprite_26: 5150754172416867010
       FinnSprite_27: 364163565158551442
-      FinnSprite_28: -8144951618997409560
       FinnSprite_3: -5917062122192708893
       FinnSprite_4: -6251104414078383469
       FinnSprite_5: 724075359462870046
