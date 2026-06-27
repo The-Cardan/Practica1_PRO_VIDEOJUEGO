@@ -95,11 +95,18 @@ public class PlayerController : MonoBehaviour
 
     void UpdateObjectCounterUI()
     {
+        if (objectCounterText == null)
+        {
+            Debug.LogError("Object Counter Text no está asignado en el Inspector");
+            return;
+        }
+
         objectCounterText.text = $"Cake: {collectedObjects["Cake"]} | " +
                                  $"Chicken: {collectedObjects["Chicken"]} | " +
                                  $"Coffee: {collectedObjects["Coffee"]} | " +
                                  $"Jam: {collectedObjects["Jam"]} | " +
                                  $"Cookie: {collectedObjects["Cookie"]}";
+
     }
 
     void OnDrawGizmos()
