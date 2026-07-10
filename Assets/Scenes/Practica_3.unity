@@ -734,7 +734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 742257439}
-  detectionRange: 3
+  detectionRange: 5
   speed: 2
 --- !u!61 &1273731487
 BoxCollider2D:
@@ -1251,11 +1251,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8403445797027517333, guid: 41ece303a7b593c40b5fffd55485a606, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.51
+      value: -19.94
       objectReference: {fileID: 0}
     - target: {fileID: 8403445797027517333, guid: 41ece303a7b593c40b5fffd55485a606, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.73
+      value: -4.59
       objectReference: {fileID: 0}
     - target: {fileID: 8403445797027517333, guid: 41ece303a7b593c40b5fffd55485a606, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1384,11 +1384,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8340619988284192775, guid: 7c0b683c816ffe040b619818500a2bee, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10.3725605
+      value: 10.133049
       objectReference: {fileID: 0}
     - target: {fileID: 8340619988284192775, guid: 7c0b683c816ffe040b619818500a2bee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.7117
+      value: 7.8315
       objectReference: {fileID: 0}
     - target: {fileID: 8340619988284192775, guid: 7c0b683c816ffe040b619818500a2bee, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2043,6 +2043,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6011534014643015491, guid: 6e01ed8fcbe44e149a8e7c7e6cd17883, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924237796128635215, guid: 6e01ed8fcbe44e149a8e7c7e6cd17883, type: 3}
+      propertyPath: m_PixelPerfect
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
