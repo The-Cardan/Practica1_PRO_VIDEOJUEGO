@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections.Generic;
 
@@ -103,6 +104,20 @@ public class PlayerController : MonoBehaviour
                                  $"Cookie: {collectedObjects["Cookie"]} | " +
                                  $"Gem: {collectedObjects["Gem"]}";
 
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("¡Has muerto!");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void OnDrawGizmos()

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Collectible
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - PisoFlotante4
   - Pared2
   - Collectibles
-  - 
+  - Enemies
   - 
   - 
   - 
