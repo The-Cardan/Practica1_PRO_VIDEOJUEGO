@@ -5,7 +5,7 @@ public class ComplexEnemy : MonoBehaviour
 {
     public Transform player;
     public float detectionRange = 5f;
-    public float speed = 2f;
+    public float speed = 3f;
 
     private bool facingRight = true;
     private Animator animator;
